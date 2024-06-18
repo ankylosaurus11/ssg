@@ -11,7 +11,7 @@ class TestTextNode(unittest.TestCase):
     def test_repr(self):
         node = TextNode("This is a text node", "bold", "test.com")
         node2 = TextNode("This is a text node", "bold", "test.com")
-        expected_repr = "TextNode(text='This is a text node', text_type='bold', url='test.com')"
+        expected_repr = "TextNode(This is a text node, bold, test.com)"
         self.assertEqual(repr(node), expected_repr)
 
 if __name__ == "__main__":
