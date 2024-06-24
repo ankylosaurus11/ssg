@@ -1,6 +1,6 @@
 import unittest
 
-from regex import (
+from textnode import (
     extract_markdown_images, 
     extract_markdown_links
 )
